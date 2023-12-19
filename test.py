@@ -1,11 +1,11 @@
-m1 = int(input())
-m2 = int(input())
-m3 = int(input())
-r = 5 * m1 + 10 * m2 + 50 * m3
-if r == 100:
-    print('good')
-elif r > 100:
-    print('1')
-elif r < 100:
-    print('2')
-
+books = 0
+if books < 2:
+    print(0)
+elif books < 4:
+    print(5)
+elif books < 6:
+    print(15)
+elif books < 8:
+    print(30)
+else:
+    print(60)
