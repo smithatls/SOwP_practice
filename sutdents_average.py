@@ -8,7 +8,7 @@ for student in range(students): # Пока студентов будет до st
     print(f'Студент номер {student + 1}')
     print('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*')
 
-    for test in range(test_scores): # внутрненний цикл, принцип работы аналогичен внешнему
+    for test in range(test_scores): # внутренний цикл, принцип работы аналогичен внешнему
         print(f'Лабораторная работа номер {test + 1}', end='')
         score = float(input(': '))
 
